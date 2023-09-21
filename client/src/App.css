@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-margin {
+    margin-left: 30rem;
+  }
+
+.custom-gray-color{
+  color:rgba(40,44,63,.45);
+  font-size: 0.9rem
+}
+
+.ml-custom{
+  margin-left:45.8rem;
+}
+
+.w-custom-118{
+  width:7.5rem;
+}
+.w-c{
+  width:6.5rem;
+}
+
+.font-normal2{
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.font-family{
+  
+  color:#686b78;
+  
+}
+
+.font-family2{
+  
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+  font-weight: 300px;
+  font-size: 14.3px;
+  color: #282c3f;
+  letter-spacing: 1px;
+  
+}
+
+.left-custom{
+  position: relative;
+  left: 27rem;
+  
+}
+
+.bgc{
+  background-color: rgb(233, 236, 238);
+  
+}
+
+.w-address{
+  width: 42rem;
+}
+
+.text-sm-custom{
+  font-size:0.75rem;
+}
+
+.top-1-custom{
+  top:0.094rem;
+}
+
+.font-loaded{
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+  letter-spacing: 0;
+  font-size:13px;
+}
+
+.color-custom{
+  background-color: #48c479;
+  color: #fff;
+  
+}
+
+.App{
+  max-width:100vw;
+}
+
+.bg-custom{
+  background-color: #171a29;
+}
+
+
+
+.txt-custom{
+  color:#60b250;
+  font-weight: bold;
+}
+
+
+.edit-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2; /* Ensure the overlay appears on top of the blurred content */
+}
+
+.edit-form {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 20%;
+  width:30%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  z-index: 3; /* Ensure the form appears on top of the overlay */
+}
+
+
+.edit-btns{
+  height: 2rem;
+}
+
+.blur {
+  filter: blur(1px);
+}
+
+
+
+.txt-clr-custom{
+  color: rgb(128, 128, 125);
+}
+.home-font-cust{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.gray{
+  color:gray;
+ 
+}
+
+.grey{
+  color:grey;
+}
+
+.lightgrey{
+  color:lightgrey;
+}
+
+.w-img-cust{
+  width: 600px;
+}
+
+.vw-text {
+  font-size: 4vw; /* Adjust the value as needed */
+}
+
+.heading-size-cust {
+  font-size: 4vw;
+}
+
+.text-size-cust{
+  font-size: 4vw;
+}
+
+.text-size-cust-2{
+  font-size: 3vw;
+}
+
+.pl-cust-vw{
+  padding-left: 7vw;
+}
+
+.bg-img{
+  background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq");
+}
+
+.bg-custom2{
+  background-color: #fc8019;
+}
+
+.border-custom{
+  border: 1.2px solid #d4d5d9;
+}
+
+.clr{
+  color:red; 
+}
+
+.bglightgrey{
+  background-color: lightgrey;
+}
+
+.bg-home-cust{
+  background-color: #2b1e16;
+}
